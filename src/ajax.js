@@ -9,6 +9,7 @@ define([
 	"./deferred"
 ], function( jQuery, rnotwhite, nonce, rquery ) {
 
+
 var
 	rhash = /#.*$/,
 	rts = /([?&])_=[^&]*/,
