@@ -16,7 +16,7 @@ test( "jQuery.data & removeData, expected returns", function() {
 	);
 	equal(
 		jQuery.data( elem, "hello" ), "world",
-		"jQuery.data( elem, key ) returns value"
+		"jQuery.data( elem, key ) returns value test"
 	);
 	deepEqual(
 		jQuery.data( elem, { goodnight: "moon" }), { goodnight: "moon" },
